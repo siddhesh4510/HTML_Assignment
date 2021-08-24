@@ -1,0 +1,204 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+  
+    position: relative; 
+    width: 90%;
+    left: 100px;
+    right: 100px;
+    top: 100px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+  }
+  
+  td, th {
+    border: 1px solid #040d14;
+    text-align: left;
+  
+    padding: 8px;
+  }
+  .table-header{
+      background-color: #0d60a5;
+      
+  }
+  
+  tr:nth-child(even) {
+    background-color: #6cbcd4;
+    
+  }
+  .btn-group button {
+    background-color: #0970ac; /* Green background */
+    border: 1px solid rgb(4, 77, 77); /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    position: relative;
+    top: 100px;
+    left: 700px;
+  }
+  .btn-group button:hover {
+      transform: scale(1.2);
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3496b4;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #2787b4;
+  }
+  .navbar{
+    position:fixed;
+    width: 100%;
+    top:0px;
+  }
+  .youtube{
+     position: relative;
+      top: 200px;
+      margin-left:500px;
+      
+      
+      
+      
+  }
+  .youtube-video{
+    box-shadow: 10px 10px 5px #aaaaaa;
+     
+    
+  }
+  .youtube-video:hover{
+    transform: scale(1.2); 
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container-form {
+    padding: 16px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] ,input[type=number]  {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    background:#0970ac;
+    padding: 15px;
+    cursor: pointer;
+    margin-left: 350px;
+    margin-top:10px;
+}
+  select{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+  }
+  textarea{
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #0970ac;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }

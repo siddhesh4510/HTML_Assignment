@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+</style>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body style="margin: 0px;">
+  <div class="navbar">
+
+  <ul>
+    
+    <li><a href="#news" class="active">Form</a></li>
+    <li><a href="pagination.html" >Pagination</a></li>
+    <li><a href="solar.html" >Solar System</a></li>
+  </ul>
+</div>
+
+<form >
+    <div class="container-form">
+      
+      <hr>
+  
+      <label for="product-name"><b>Product Name</b></label>
+      <input type="text" placeholder="Enter Product Name" id="product-name" required>
+  
+      <label for="price"><b>Product Price</b></label>
+      <input type="number" placeholder="Enter Price" name="price" id="price" required>
+  
+      <label for="unit"><b>Choose Unit:</b></label>
+    <select id="unit" name="unit">
+  <option value="KG">KG</option>
+  <option value="Gram">Gram</option>
+  <option value="Ton">Ton</option>
+  
+</select>
+<label for="product-image"><b>Upload Product Image</b></label>
+<br>
+<label class="custom-file-upload">
+    <input type="file" accept="image"/>
+    Upload Image
+</label>
+<br>
+      
+      <label for="product-description"><b>Product Description</b></label>
+      <textarea id="description" name="description"></textarea>
+        <hr>
+      
+   
+  
+      <button type="submit" class="registerbtn">Save</button>
+      <button type="reset" class="registerbtn">Reset</button>
+    </div>
+    
+    
+  </form>
+
+
+</body>
+<script src="pagination.js"></script>
+</html>
